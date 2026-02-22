@@ -1,0 +1,629 @@
+{
+  "meta": {
+    "frame_size": {
+      "w": 32,
+      "h": 32
+    },
+    "columns": 8,
+    "naming": "npc.{name}.{anim}.{frame}",
+    "sheets": {
+      "szokobons_sheet.png": {
+        "w": 256,
+        "h": 96
+      },
+      "ragebun_sheet.png": {
+        "w": 256,
+        "h": 96
+      },
+      "blueeye_sheet.png": {
+        "w": 256,
+        "h": 96
+      }
+    },
+    "animations": {
+      "rabbit": {
+        "idle": 3,
+        "walk": 3,
+        "attack": 3,
+        "hurt": 3,
+        "death": 3
+      },
+      "blueeye": {
+        "idle_float": 3,
+        "blink": 3,
+        "speak_pulse": 3,
+        "attack_cast": 3,
+        "vanish": 3
+      }
+    },
+    "reduced_keyframes": "start_mid_end",
+    "reduced_frame_count": 3
+  },
+  "frames": {
+    "npc.szokobons.idle.00": {
+      "sheet": "szokobons_sheet.png",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      }
+    },
+    "npc.szokobons.idle.01": {
+      "sheet": "szokobons_sheet.png",
+      "frame": {
+        "x": 32,
+        "y": 0,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      }
+    },
+    "npc.szokobons.idle.02": {
+      "sheet": "szokobons_sheet.png",
+      "frame": {
+        "x": 96,
+        "y": 0,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      }
+    },
+    "npc.szokobons.walk.00": {
+      "sheet": "szokobons_sheet.png",
+      "frame": {
+        "x": 128,
+        "y": 0,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      }
+    },
+    "npc.szokobons.walk.01": {
+      "sheet": "szokobons_sheet.png",
+      "frame": {
+        "x": 192,
+        "y": 0,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      }
+    },
+    "npc.szokobons.walk.02": {
+      "sheet": "szokobons_sheet.png",
+      "frame": {
+        "x": 32,
+        "y": 32,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      }
+    },
+    "npc.szokobons.attack.00": {
+      "sheet": "szokobons_sheet.png",
+      "frame": {
+        "x": 64,
+        "y": 32,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      }
+    },
+    "npc.szokobons.attack.01": {
+      "sheet": "szokobons_sheet.png",
+      "frame": {
+        "x": 96,
+        "y": 32,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      }
+    },
+    "npc.szokobons.attack.02": {
+      "sheet": "szokobons_sheet.png",
+      "frame": {
+        "x": 160,
+        "y": 32,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      }
+    },
+    "npc.szokobons.hurt.00": {
+      "sheet": "szokobons_sheet.png",
+      "frame": {
+        "x": 192,
+        "y": 32,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      }
+    },
+    "npc.szokobons.hurt.01": {
+      "sheet": "szokobons_sheet.png",
+      "frame": {
+        "x": 224,
+        "y": 32,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      }
+    },
+    "npc.szokobons.hurt.02": {
+      "sheet": "szokobons_sheet.png",
+      "frame": {
+        "x": 224,
+        "y": 32,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      }
+    },
+    "npc.szokobons.death.00": {
+      "sheet": "szokobons_sheet.png",
+      "frame": {
+        "x": 0,
+        "y": 64,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      }
+    },
+    "npc.szokobons.death.01": {
+      "sheet": "szokobons_sheet.png",
+      "frame": {
+        "x": 64,
+        "y": 64,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      }
+    },
+    "npc.szokobons.death.02": {
+      "sheet": "szokobons_sheet.png",
+      "frame": {
+        "x": 160,
+        "y": 64,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      }
+    },
+    "npc.ragebun.idle.00": {
+      "sheet": "ragebun_sheet.png",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      }
+    },
+    "npc.ragebun.idle.01": {
+      "sheet": "ragebun_sheet.png",
+      "frame": {
+        "x": 32,
+        "y": 0,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      }
+    },
+    "npc.ragebun.idle.02": {
+      "sheet": "ragebun_sheet.png",
+      "frame": {
+        "x": 96,
+        "y": 0,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      }
+    },
+    "npc.ragebun.walk.00": {
+      "sheet": "ragebun_sheet.png",
+      "frame": {
+        "x": 128,
+        "y": 0,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      }
+    },
+    "npc.ragebun.walk.01": {
+      "sheet": "ragebun_sheet.png",
+      "frame": {
+        "x": 192,
+        "y": 0,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      }
+    },
+    "npc.ragebun.walk.02": {
+      "sheet": "ragebun_sheet.png",
+      "frame": {
+        "x": 32,
+        "y": 32,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      }
+    },
+    "npc.ragebun.attack.00": {
+      "sheet": "ragebun_sheet.png",
+      "frame": {
+        "x": 64,
+        "y": 32,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      }
+    },
+    "npc.ragebun.attack.01": {
+      "sheet": "ragebun_sheet.png",
+      "frame": {
+        "x": 96,
+        "y": 32,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      }
+    },
+    "npc.ragebun.attack.02": {
+      "sheet": "ragebun_sheet.png",
+      "frame": {
+        "x": 160,
+        "y": 32,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      }
+    },
+    "npc.ragebun.hurt.00": {
+      "sheet": "ragebun_sheet.png",
+      "frame": {
+        "x": 192,
+        "y": 32,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      }
+    },
+    "npc.ragebun.hurt.01": {
+      "sheet": "ragebun_sheet.png",
+      "frame": {
+        "x": 224,
+        "y": 32,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      }
+    },
+    "npc.ragebun.hurt.02": {
+      "sheet": "ragebun_sheet.png",
+      "frame": {
+        "x": 224,
+        "y": 32,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      }
+    },
+    "npc.ragebun.death.00": {
+      "sheet": "ragebun_sheet.png",
+      "frame": {
+        "x": 0,
+        "y": 64,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      }
+    },
+    "npc.ragebun.death.01": {
+      "sheet": "ragebun_sheet.png",
+      "frame": {
+        "x": 64,
+        "y": 64,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      }
+    },
+    "npc.ragebun.death.02": {
+      "sheet": "ragebun_sheet.png",
+      "frame": {
+        "x": 160,
+        "y": 64,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      }
+    },
+    "npc.blueeye.idle_float.00": {
+      "sheet": "blueeye_sheet.png",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 20
+      }
+    },
+    "npc.blueeye.idle_float.01": {
+      "sheet": "blueeye_sheet.png",
+      "frame": {
+        "x": 64,
+        "y": 0,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 20
+      }
+    },
+    "npc.blueeye.idle_float.02": {
+      "sheet": "blueeye_sheet.png",
+      "frame": {
+        "x": 160,
+        "y": 0,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 20
+      }
+    },
+    "npc.blueeye.blink.00": {
+      "sheet": "blueeye_sheet.png",
+      "frame": {
+        "x": 192,
+        "y": 0,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 20
+      }
+    },
+    "npc.blueeye.blink.01": {
+      "sheet": "blueeye_sheet.png",
+      "frame": {
+        "x": 224,
+        "y": 0,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 20
+      }
+    },
+    "npc.blueeye.blink.02": {
+      "sheet": "blueeye_sheet.png",
+      "frame": {
+        "x": 32,
+        "y": 32,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 20
+      }
+    },
+    "npc.blueeye.speak_pulse.00": {
+      "sheet": "blueeye_sheet.png",
+      "frame": {
+        "x": 64,
+        "y": 32,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 20
+      }
+    },
+    "npc.blueeye.speak_pulse.01": {
+      "sheet": "blueeye_sheet.png",
+      "frame": {
+        "x": 96,
+        "y": 32,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 20
+      }
+    },
+    "npc.blueeye.speak_pulse.02": {
+      "sheet": "blueeye_sheet.png",
+      "frame": {
+        "x": 160,
+        "y": 32,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 20
+      }
+    },
+    "npc.blueeye.attack_cast.00": {
+      "sheet": "blueeye_sheet.png",
+      "frame": {
+        "x": 192,
+        "y": 32,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 20
+      }
+    },
+    "npc.blueeye.attack_cast.01": {
+      "sheet": "blueeye_sheet.png",
+      "frame": {
+        "x": 224,
+        "y": 32,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 20
+      }
+    },
+    "npc.blueeye.attack_cast.02": {
+      "sheet": "blueeye_sheet.png",
+      "frame": {
+        "x": 32,
+        "y": 64,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 20
+      }
+    },
+    "npc.blueeye.vanish.00": {
+      "sheet": "blueeye_sheet.png",
+      "frame": {
+        "x": 64,
+        "y": 64,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 20
+      }
+    },
+    "npc.blueeye.vanish.01": {
+      "sheet": "blueeye_sheet.png",
+      "frame": {
+        "x": 128,
+        "y": 64,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 20
+      }
+    },
+    "npc.blueeye.vanish.02": {
+      "sheet": "blueeye_sheet.png",
+      "frame": {
+        "x": 224,
+        "y": 64,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 20
+      }
+    }
+  }
+}

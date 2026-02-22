@@ -1,0 +1,2103 @@
+{
+  "meta": {
+    "frame_size": {
+      "w": 32,
+      "h": 32
+    },
+    "sheet_layout": {
+      "columns": 8
+    },
+    "states": [
+      "fit",
+      "chubby",
+      "heavy"
+    ],
+    "animations": {
+      "idle": 3,
+      "run": 3,
+      "jump_start": 3,
+      "jump_air": 3,
+      "fall": 3,
+      "land": 3,
+      "shoot_ground": 3,
+      "shoot_air": 3,
+      "hurt": 3,
+      "death": 3,
+      "interaction": 3,
+      "victory": 3
+    },
+    "sheets": {
+      "cactus_hero_fit.png": {
+        "w": 256,
+        "h": 192
+      },
+      "cactus_hero_chubby.png": {
+        "w": 256,
+        "h": 192
+      },
+      "cactus_hero_heavy.png": {
+        "w": 256,
+        "h": 192
+      }
+    },
+    "naming": "player.{state}.{anim}.{frame}",
+    "direction": "right",
+    "flip_x_for_left": true,
+    "reduced_keyframes": "start_mid_end",
+    "reduced_frame_count": 3
+  },
+  "frames": {
+    "player.fit.idle.00": {
+      "sheet": "cactus_hero_fit.png",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 10,
+        "y": 7,
+        "w": 12,
+        "h": 23
+      }
+    },
+    "player.fit.idle.01": {
+      "sheet": "cactus_hero_fit.png",
+      "frame": {
+        "x": 64,
+        "y": 0,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 10,
+        "y": 7,
+        "w": 12,
+        "h": 23
+      }
+    },
+    "player.fit.idle.02": {
+      "sheet": "cactus_hero_fit.png",
+      "frame": {
+        "x": 160,
+        "y": 0,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 10,
+        "y": 7,
+        "w": 12,
+        "h": 23
+      }
+    },
+    "player.fit.run.00": {
+      "sheet": "cactus_hero_fit.png",
+      "frame": {
+        "x": 192,
+        "y": 0,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 10,
+        "y": 7,
+        "w": 12,
+        "h": 23
+      }
+    },
+    "player.fit.run.01": {
+      "sheet": "cactus_hero_fit.png",
+      "frame": {
+        "x": 32,
+        "y": 32,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 10,
+        "y": 7,
+        "w": 12,
+        "h": 23
+      }
+    },
+    "player.fit.run.02": {
+      "sheet": "cactus_hero_fit.png",
+      "frame": {
+        "x": 160,
+        "y": 32,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 10,
+        "y": 7,
+        "w": 12,
+        "h": 23
+      }
+    },
+    "player.fit.jump_start.00": {
+      "sheet": "cactus_hero_fit.png",
+      "frame": {
+        "x": 192,
+        "y": 32,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 10,
+        "y": 7,
+        "w": 12,
+        "h": 23
+      }
+    },
+    "player.fit.jump_start.01": {
+      "sheet": "cactus_hero_fit.png",
+      "frame": {
+        "x": 224,
+        "y": 32,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 10,
+        "y": 7,
+        "w": 12,
+        "h": 23
+      }
+    },
+    "player.fit.jump_start.02": {
+      "sheet": "cactus_hero_fit.png",
+      "frame": {
+        "x": 224,
+        "y": 32,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 10,
+        "y": 7,
+        "w": 12,
+        "h": 23
+      }
+    },
+    "player.fit.jump_air.00": {
+      "sheet": "cactus_hero_fit.png",
+      "frame": {
+        "x": 0,
+        "y": 64,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 10,
+        "y": 7,
+        "w": 12,
+        "h": 23
+      }
+    },
+    "player.fit.jump_air.01": {
+      "sheet": "cactus_hero_fit.png",
+      "frame": {
+        "x": 32,
+        "y": 64,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 10,
+        "y": 7,
+        "w": 12,
+        "h": 23
+      }
+    },
+    "player.fit.jump_air.02": {
+      "sheet": "cactus_hero_fit.png",
+      "frame": {
+        "x": 32,
+        "y": 64,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 10,
+        "y": 7,
+        "w": 12,
+        "h": 23
+      }
+    },
+    "player.fit.fall.00": {
+      "sheet": "cactus_hero_fit.png",
+      "frame": {
+        "x": 64,
+        "y": 64,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 10,
+        "y": 7,
+        "w": 12,
+        "h": 23
+      }
+    },
+    "player.fit.fall.01": {
+      "sheet": "cactus_hero_fit.png",
+      "frame": {
+        "x": 96,
+        "y": 64,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 10,
+        "y": 7,
+        "w": 12,
+        "h": 23
+      }
+    },
+    "player.fit.fall.02": {
+      "sheet": "cactus_hero_fit.png",
+      "frame": {
+        "x": 96,
+        "y": 64,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 10,
+        "y": 7,
+        "w": 12,
+        "h": 23
+      }
+    },
+    "player.fit.land.00": {
+      "sheet": "cactus_hero_fit.png",
+      "frame": {
+        "x": 128,
+        "y": 64,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 10,
+        "y": 7,
+        "w": 12,
+        "h": 23
+      }
+    },
+    "player.fit.land.01": {
+      "sheet": "cactus_hero_fit.png",
+      "frame": {
+        "x": 160,
+        "y": 64,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 10,
+        "y": 7,
+        "w": 12,
+        "h": 23
+      }
+    },
+    "player.fit.land.02": {
+      "sheet": "cactus_hero_fit.png",
+      "frame": {
+        "x": 160,
+        "y": 64,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 10,
+        "y": 7,
+        "w": 12,
+        "h": 23
+      }
+    },
+    "player.fit.shoot_ground.00": {
+      "sheet": "cactus_hero_fit.png",
+      "frame": {
+        "x": 192,
+        "y": 64,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 10,
+        "y": 7,
+        "w": 12,
+        "h": 23
+      }
+    },
+    "player.fit.shoot_ground.01": {
+      "sheet": "cactus_hero_fit.png",
+      "frame": {
+        "x": 224,
+        "y": 64,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 10,
+        "y": 7,
+        "w": 12,
+        "h": 23
+      }
+    },
+    "player.fit.shoot_ground.02": {
+      "sheet": "cactus_hero_fit.png",
+      "frame": {
+        "x": 32,
+        "y": 96,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 10,
+        "y": 7,
+        "w": 12,
+        "h": 23
+      }
+    },
+    "player.fit.shoot_air.00": {
+      "sheet": "cactus_hero_fit.png",
+      "frame": {
+        "x": 64,
+        "y": 96,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 10,
+        "y": 7,
+        "w": 12,
+        "h": 23
+      }
+    },
+    "player.fit.shoot_air.01": {
+      "sheet": "cactus_hero_fit.png",
+      "frame": {
+        "x": 96,
+        "y": 96,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 10,
+        "y": 7,
+        "w": 12,
+        "h": 23
+      }
+    },
+    "player.fit.shoot_air.02": {
+      "sheet": "cactus_hero_fit.png",
+      "frame": {
+        "x": 128,
+        "y": 96,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 10,
+        "y": 7,
+        "w": 12,
+        "h": 23
+      }
+    },
+    "player.fit.hurt.00": {
+      "sheet": "cactus_hero_fit.png",
+      "frame": {
+        "x": 160,
+        "y": 96,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 10,
+        "y": 7,
+        "w": 12,
+        "h": 23
+      }
+    },
+    "player.fit.hurt.01": {
+      "sheet": "cactus_hero_fit.png",
+      "frame": {
+        "x": 192,
+        "y": 96,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 10,
+        "y": 7,
+        "w": 12,
+        "h": 23
+      }
+    },
+    "player.fit.hurt.02": {
+      "sheet": "cactus_hero_fit.png",
+      "frame": {
+        "x": 224,
+        "y": 96,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 10,
+        "y": 7,
+        "w": 12,
+        "h": 23
+      }
+    },
+    "player.fit.death.00": {
+      "sheet": "cactus_hero_fit.png",
+      "frame": {
+        "x": 0,
+        "y": 128,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 10,
+        "y": 7,
+        "w": 12,
+        "h": 23
+      }
+    },
+    "player.fit.death.01": {
+      "sheet": "cactus_hero_fit.png",
+      "frame": {
+        "x": 96,
+        "y": 128,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 10,
+        "y": 7,
+        "w": 12,
+        "h": 23
+      }
+    },
+    "player.fit.death.02": {
+      "sheet": "cactus_hero_fit.png",
+      "frame": {
+        "x": 224,
+        "y": 128,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 10,
+        "y": 7,
+        "w": 12,
+        "h": 23
+      }
+    },
+    "player.fit.interaction.00": {
+      "sheet": "cactus_hero_fit.png",
+      "frame": {
+        "x": 0,
+        "y": 160,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 10,
+        "y": 7,
+        "w": 12,
+        "h": 23
+      }
+    },
+    "player.fit.interaction.01": {
+      "sheet": "cactus_hero_fit.png",
+      "frame": {
+        "x": 32,
+        "y": 160,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 10,
+        "y": 7,
+        "w": 12,
+        "h": 23
+      }
+    },
+    "player.fit.interaction.02": {
+      "sheet": "cactus_hero_fit.png",
+      "frame": {
+        "x": 96,
+        "y": 160,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 10,
+        "y": 7,
+        "w": 12,
+        "h": 23
+      }
+    },
+    "player.fit.victory.00": {
+      "sheet": "cactus_hero_fit.png",
+      "frame": {
+        "x": 128,
+        "y": 160,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 10,
+        "y": 7,
+        "w": 12,
+        "h": 23
+      }
+    },
+    "player.fit.victory.01": {
+      "sheet": "cactus_hero_fit.png",
+      "frame": {
+        "x": 160,
+        "y": 160,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 10,
+        "y": 7,
+        "w": 12,
+        "h": 23
+      }
+    },
+    "player.fit.victory.02": {
+      "sheet": "cactus_hero_fit.png",
+      "frame": {
+        "x": 224,
+        "y": 160,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 10,
+        "y": 7,
+        "w": 12,
+        "h": 23
+      }
+    },
+    "player.chubby.idle.00": {
+      "sheet": "cactus_hero_chubby.png",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 9,
+        "y": 7,
+        "w": 14,
+        "h": 23
+      }
+    },
+    "player.chubby.idle.01": {
+      "sheet": "cactus_hero_chubby.png",
+      "frame": {
+        "x": 64,
+        "y": 0,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 9,
+        "y": 7,
+        "w": 14,
+        "h": 23
+      }
+    },
+    "player.chubby.idle.02": {
+      "sheet": "cactus_hero_chubby.png",
+      "frame": {
+        "x": 160,
+        "y": 0,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 9,
+        "y": 7,
+        "w": 14,
+        "h": 23
+      }
+    },
+    "player.chubby.run.00": {
+      "sheet": "cactus_hero_chubby.png",
+      "frame": {
+        "x": 192,
+        "y": 0,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 9,
+        "y": 7,
+        "w": 14,
+        "h": 23
+      }
+    },
+    "player.chubby.run.01": {
+      "sheet": "cactus_hero_chubby.png",
+      "frame": {
+        "x": 32,
+        "y": 32,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 9,
+        "y": 7,
+        "w": 14,
+        "h": 23
+      }
+    },
+    "player.chubby.run.02": {
+      "sheet": "cactus_hero_chubby.png",
+      "frame": {
+        "x": 160,
+        "y": 32,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 9,
+        "y": 7,
+        "w": 14,
+        "h": 23
+      }
+    },
+    "player.chubby.jump_start.00": {
+      "sheet": "cactus_hero_chubby.png",
+      "frame": {
+        "x": 192,
+        "y": 32,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 9,
+        "y": 7,
+        "w": 14,
+        "h": 23
+      }
+    },
+    "player.chubby.jump_start.01": {
+      "sheet": "cactus_hero_chubby.png",
+      "frame": {
+        "x": 224,
+        "y": 32,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 9,
+        "y": 7,
+        "w": 14,
+        "h": 23
+      }
+    },
+    "player.chubby.jump_start.02": {
+      "sheet": "cactus_hero_chubby.png",
+      "frame": {
+        "x": 224,
+        "y": 32,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 9,
+        "y": 7,
+        "w": 14,
+        "h": 23
+      }
+    },
+    "player.chubby.jump_air.00": {
+      "sheet": "cactus_hero_chubby.png",
+      "frame": {
+        "x": 0,
+        "y": 64,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 9,
+        "y": 7,
+        "w": 14,
+        "h": 23
+      }
+    },
+    "player.chubby.jump_air.01": {
+      "sheet": "cactus_hero_chubby.png",
+      "frame": {
+        "x": 32,
+        "y": 64,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 9,
+        "y": 7,
+        "w": 14,
+        "h": 23
+      }
+    },
+    "player.chubby.jump_air.02": {
+      "sheet": "cactus_hero_chubby.png",
+      "frame": {
+        "x": 32,
+        "y": 64,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 9,
+        "y": 7,
+        "w": 14,
+        "h": 23
+      }
+    },
+    "player.chubby.fall.00": {
+      "sheet": "cactus_hero_chubby.png",
+      "frame": {
+        "x": 64,
+        "y": 64,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 9,
+        "y": 7,
+        "w": 14,
+        "h": 23
+      }
+    },
+    "player.chubby.fall.01": {
+      "sheet": "cactus_hero_chubby.png",
+      "frame": {
+        "x": 96,
+        "y": 64,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 9,
+        "y": 7,
+        "w": 14,
+        "h": 23
+      }
+    },
+    "player.chubby.fall.02": {
+      "sheet": "cactus_hero_chubby.png",
+      "frame": {
+        "x": 96,
+        "y": 64,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 9,
+        "y": 7,
+        "w": 14,
+        "h": 23
+      }
+    },
+    "player.chubby.land.00": {
+      "sheet": "cactus_hero_chubby.png",
+      "frame": {
+        "x": 128,
+        "y": 64,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 9,
+        "y": 7,
+        "w": 14,
+        "h": 23
+      }
+    },
+    "player.chubby.land.01": {
+      "sheet": "cactus_hero_chubby.png",
+      "frame": {
+        "x": 160,
+        "y": 64,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 9,
+        "y": 7,
+        "w": 14,
+        "h": 23
+      }
+    },
+    "player.chubby.land.02": {
+      "sheet": "cactus_hero_chubby.png",
+      "frame": {
+        "x": 160,
+        "y": 64,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 9,
+        "y": 7,
+        "w": 14,
+        "h": 23
+      }
+    },
+    "player.chubby.shoot_ground.00": {
+      "sheet": "cactus_hero_chubby.png",
+      "frame": {
+        "x": 192,
+        "y": 64,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 9,
+        "y": 7,
+        "w": 14,
+        "h": 23
+      }
+    },
+    "player.chubby.shoot_ground.01": {
+      "sheet": "cactus_hero_chubby.png",
+      "frame": {
+        "x": 224,
+        "y": 64,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 9,
+        "y": 7,
+        "w": 14,
+        "h": 23
+      }
+    },
+    "player.chubby.shoot_ground.02": {
+      "sheet": "cactus_hero_chubby.png",
+      "frame": {
+        "x": 32,
+        "y": 96,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 9,
+        "y": 7,
+        "w": 14,
+        "h": 23
+      }
+    },
+    "player.chubby.shoot_air.00": {
+      "sheet": "cactus_hero_chubby.png",
+      "frame": {
+        "x": 64,
+        "y": 96,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 9,
+        "y": 7,
+        "w": 14,
+        "h": 23
+      }
+    },
+    "player.chubby.shoot_air.01": {
+      "sheet": "cactus_hero_chubby.png",
+      "frame": {
+        "x": 96,
+        "y": 96,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 9,
+        "y": 7,
+        "w": 14,
+        "h": 23
+      }
+    },
+    "player.chubby.shoot_air.02": {
+      "sheet": "cactus_hero_chubby.png",
+      "frame": {
+        "x": 128,
+        "y": 96,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 9,
+        "y": 7,
+        "w": 14,
+        "h": 23
+      }
+    },
+    "player.chubby.hurt.00": {
+      "sheet": "cactus_hero_chubby.png",
+      "frame": {
+        "x": 160,
+        "y": 96,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 9,
+        "y": 7,
+        "w": 14,
+        "h": 23
+      }
+    },
+    "player.chubby.hurt.01": {
+      "sheet": "cactus_hero_chubby.png",
+      "frame": {
+        "x": 192,
+        "y": 96,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 9,
+        "y": 7,
+        "w": 14,
+        "h": 23
+      }
+    },
+    "player.chubby.hurt.02": {
+      "sheet": "cactus_hero_chubby.png",
+      "frame": {
+        "x": 224,
+        "y": 96,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 9,
+        "y": 7,
+        "w": 14,
+        "h": 23
+      }
+    },
+    "player.chubby.death.00": {
+      "sheet": "cactus_hero_chubby.png",
+      "frame": {
+        "x": 0,
+        "y": 128,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 9,
+        "y": 7,
+        "w": 14,
+        "h": 23
+      }
+    },
+    "player.chubby.death.01": {
+      "sheet": "cactus_hero_chubby.png",
+      "frame": {
+        "x": 96,
+        "y": 128,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 9,
+        "y": 7,
+        "w": 14,
+        "h": 23
+      }
+    },
+    "player.chubby.death.02": {
+      "sheet": "cactus_hero_chubby.png",
+      "frame": {
+        "x": 224,
+        "y": 128,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 9,
+        "y": 7,
+        "w": 14,
+        "h": 23
+      }
+    },
+    "player.chubby.interaction.00": {
+      "sheet": "cactus_hero_chubby.png",
+      "frame": {
+        "x": 0,
+        "y": 160,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 9,
+        "y": 7,
+        "w": 14,
+        "h": 23
+      }
+    },
+    "player.chubby.interaction.01": {
+      "sheet": "cactus_hero_chubby.png",
+      "frame": {
+        "x": 32,
+        "y": 160,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 9,
+        "y": 7,
+        "w": 14,
+        "h": 23
+      }
+    },
+    "player.chubby.interaction.02": {
+      "sheet": "cactus_hero_chubby.png",
+      "frame": {
+        "x": 96,
+        "y": 160,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 9,
+        "y": 7,
+        "w": 14,
+        "h": 23
+      }
+    },
+    "player.chubby.victory.00": {
+      "sheet": "cactus_hero_chubby.png",
+      "frame": {
+        "x": 128,
+        "y": 160,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 9,
+        "y": 7,
+        "w": 14,
+        "h": 23
+      }
+    },
+    "player.chubby.victory.01": {
+      "sheet": "cactus_hero_chubby.png",
+      "frame": {
+        "x": 160,
+        "y": 160,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 9,
+        "y": 7,
+        "w": 14,
+        "h": 23
+      }
+    },
+    "player.chubby.victory.02": {
+      "sheet": "cactus_hero_chubby.png",
+      "frame": {
+        "x": 224,
+        "y": 160,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 9,
+        "y": 7,
+        "w": 14,
+        "h": 23
+      }
+    },
+    "player.heavy.idle.00": {
+      "sheet": "cactus_hero_heavy.png",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 8,
+        "y": 7,
+        "w": 16,
+        "h": 24
+      }
+    },
+    "player.heavy.idle.01": {
+      "sheet": "cactus_hero_heavy.png",
+      "frame": {
+        "x": 64,
+        "y": 0,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 8,
+        "y": 7,
+        "w": 16,
+        "h": 24
+      }
+    },
+    "player.heavy.idle.02": {
+      "sheet": "cactus_hero_heavy.png",
+      "frame": {
+        "x": 160,
+        "y": 0,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 8,
+        "y": 7,
+        "w": 16,
+        "h": 24
+      }
+    },
+    "player.heavy.run.00": {
+      "sheet": "cactus_hero_heavy.png",
+      "frame": {
+        "x": 192,
+        "y": 0,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 8,
+        "y": 7,
+        "w": 16,
+        "h": 24
+      }
+    },
+    "player.heavy.run.01": {
+      "sheet": "cactus_hero_heavy.png",
+      "frame": {
+        "x": 32,
+        "y": 32,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 8,
+        "y": 7,
+        "w": 16,
+        "h": 24
+      }
+    },
+    "player.heavy.run.02": {
+      "sheet": "cactus_hero_heavy.png",
+      "frame": {
+        "x": 160,
+        "y": 32,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 8,
+        "y": 7,
+        "w": 16,
+        "h": 24
+      }
+    },
+    "player.heavy.jump_start.00": {
+      "sheet": "cactus_hero_heavy.png",
+      "frame": {
+        "x": 192,
+        "y": 32,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 8,
+        "y": 7,
+        "w": 16,
+        "h": 24
+      }
+    },
+    "player.heavy.jump_start.01": {
+      "sheet": "cactus_hero_heavy.png",
+      "frame": {
+        "x": 224,
+        "y": 32,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 8,
+        "y": 7,
+        "w": 16,
+        "h": 24
+      }
+    },
+    "player.heavy.jump_start.02": {
+      "sheet": "cactus_hero_heavy.png",
+      "frame": {
+        "x": 224,
+        "y": 32,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 8,
+        "y": 7,
+        "w": 16,
+        "h": 24
+      }
+    },
+    "player.heavy.jump_air.00": {
+      "sheet": "cactus_hero_heavy.png",
+      "frame": {
+        "x": 0,
+        "y": 64,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 8,
+        "y": 7,
+        "w": 16,
+        "h": 24
+      }
+    },
+    "player.heavy.jump_air.01": {
+      "sheet": "cactus_hero_heavy.png",
+      "frame": {
+        "x": 32,
+        "y": 64,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 8,
+        "y": 7,
+        "w": 16,
+        "h": 24
+      }
+    },
+    "player.heavy.jump_air.02": {
+      "sheet": "cactus_hero_heavy.png",
+      "frame": {
+        "x": 32,
+        "y": 64,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 8,
+        "y": 7,
+        "w": 16,
+        "h": 24
+      }
+    },
+    "player.heavy.fall.00": {
+      "sheet": "cactus_hero_heavy.png",
+      "frame": {
+        "x": 64,
+        "y": 64,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 8,
+        "y": 7,
+        "w": 16,
+        "h": 24
+      }
+    },
+    "player.heavy.fall.01": {
+      "sheet": "cactus_hero_heavy.png",
+      "frame": {
+        "x": 96,
+        "y": 64,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 8,
+        "y": 7,
+        "w": 16,
+        "h": 24
+      }
+    },
+    "player.heavy.fall.02": {
+      "sheet": "cactus_hero_heavy.png",
+      "frame": {
+        "x": 96,
+        "y": 64,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 8,
+        "y": 7,
+        "w": 16,
+        "h": 24
+      }
+    },
+    "player.heavy.land.00": {
+      "sheet": "cactus_hero_heavy.png",
+      "frame": {
+        "x": 128,
+        "y": 64,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 8,
+        "y": 7,
+        "w": 16,
+        "h": 24
+      }
+    },
+    "player.heavy.land.01": {
+      "sheet": "cactus_hero_heavy.png",
+      "frame": {
+        "x": 160,
+        "y": 64,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 8,
+        "y": 7,
+        "w": 16,
+        "h": 24
+      }
+    },
+    "player.heavy.land.02": {
+      "sheet": "cactus_hero_heavy.png",
+      "frame": {
+        "x": 160,
+        "y": 64,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 8,
+        "y": 7,
+        "w": 16,
+        "h": 24
+      }
+    },
+    "player.heavy.shoot_ground.00": {
+      "sheet": "cactus_hero_heavy.png",
+      "frame": {
+        "x": 192,
+        "y": 64,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 8,
+        "y": 7,
+        "w": 16,
+        "h": 24
+      }
+    },
+    "player.heavy.shoot_ground.01": {
+      "sheet": "cactus_hero_heavy.png",
+      "frame": {
+        "x": 224,
+        "y": 64,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 8,
+        "y": 7,
+        "w": 16,
+        "h": 24
+      }
+    },
+    "player.heavy.shoot_ground.02": {
+      "sheet": "cactus_hero_heavy.png",
+      "frame": {
+        "x": 32,
+        "y": 96,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 8,
+        "y": 7,
+        "w": 16,
+        "h": 24
+      }
+    },
+    "player.heavy.shoot_air.00": {
+      "sheet": "cactus_hero_heavy.png",
+      "frame": {
+        "x": 64,
+        "y": 96,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 8,
+        "y": 7,
+        "w": 16,
+        "h": 24
+      }
+    },
+    "player.heavy.shoot_air.01": {
+      "sheet": "cactus_hero_heavy.png",
+      "frame": {
+        "x": 96,
+        "y": 96,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 8,
+        "y": 7,
+        "w": 16,
+        "h": 24
+      }
+    },
+    "player.heavy.shoot_air.02": {
+      "sheet": "cactus_hero_heavy.png",
+      "frame": {
+        "x": 128,
+        "y": 96,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 8,
+        "y": 7,
+        "w": 16,
+        "h": 24
+      }
+    },
+    "player.heavy.hurt.00": {
+      "sheet": "cactus_hero_heavy.png",
+      "frame": {
+        "x": 160,
+        "y": 96,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 8,
+        "y": 7,
+        "w": 16,
+        "h": 24
+      }
+    },
+    "player.heavy.hurt.01": {
+      "sheet": "cactus_hero_heavy.png",
+      "frame": {
+        "x": 192,
+        "y": 96,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 8,
+        "y": 7,
+        "w": 16,
+        "h": 24
+      }
+    },
+    "player.heavy.hurt.02": {
+      "sheet": "cactus_hero_heavy.png",
+      "frame": {
+        "x": 224,
+        "y": 96,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 8,
+        "y": 7,
+        "w": 16,
+        "h": 24
+      }
+    },
+    "player.heavy.death.00": {
+      "sheet": "cactus_hero_heavy.png",
+      "frame": {
+        "x": 0,
+        "y": 128,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 8,
+        "y": 7,
+        "w": 16,
+        "h": 24
+      }
+    },
+    "player.heavy.death.01": {
+      "sheet": "cactus_hero_heavy.png",
+      "frame": {
+        "x": 96,
+        "y": 128,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 8,
+        "y": 7,
+        "w": 16,
+        "h": 24
+      }
+    },
+    "player.heavy.death.02": {
+      "sheet": "cactus_hero_heavy.png",
+      "frame": {
+        "x": 224,
+        "y": 128,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 8,
+        "y": 7,
+        "w": 16,
+        "h": 24
+      }
+    },
+    "player.heavy.interaction.00": {
+      "sheet": "cactus_hero_heavy.png",
+      "frame": {
+        "x": 0,
+        "y": 160,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 8,
+        "y": 7,
+        "w": 16,
+        "h": 24
+      }
+    },
+    "player.heavy.interaction.01": {
+      "sheet": "cactus_hero_heavy.png",
+      "frame": {
+        "x": 32,
+        "y": 160,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 8,
+        "y": 7,
+        "w": 16,
+        "h": 24
+      }
+    },
+    "player.heavy.interaction.02": {
+      "sheet": "cactus_hero_heavy.png",
+      "frame": {
+        "x": 96,
+        "y": 160,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 8,
+        "y": 7,
+        "w": 16,
+        "h": 24
+      }
+    },
+    "player.heavy.victory.00": {
+      "sheet": "cactus_hero_heavy.png",
+      "frame": {
+        "x": 128,
+        "y": 160,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 8,
+        "y": 7,
+        "w": 16,
+        "h": 24
+      }
+    },
+    "player.heavy.victory.01": {
+      "sheet": "cactus_hero_heavy.png",
+      "frame": {
+        "x": 160,
+        "y": 160,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 8,
+        "y": 7,
+        "w": 16,
+        "h": 24
+      }
+    },
+    "player.heavy.victory.02": {
+      "sheet": "cactus_hero_heavy.png",
+      "frame": {
+        "x": 224,
+        "y": 160,
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 16,
+        "y": 29
+      },
+      "hitbox_hint": {
+        "x": 8,
+        "y": 7,
+        "w": 16,
+        "h": 24
+      }
+    }
+  }
+}
